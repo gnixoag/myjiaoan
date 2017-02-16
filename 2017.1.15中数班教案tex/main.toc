@@ -1,0 +1,35 @@
+\contentsline {section}{\numberline {1} 复习上期所学内容 }{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}组织教学}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}复习导入及主要内容}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}教学内容及过程}{2}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}本期教学安排}{2}{subsubsection.1.3.1}
+\contentsline {paragraph}{\numberline {1.3.1.1}理论教学计划：}{2}{paragraph.1.3.1.1}
+\contentsline {paragraph}{\numberline {1.3.1.2}实习教学计划}{3}{paragraph.1.3.1.2}
+\contentsline {subsubsection}{\numberline {1.3.2}手工编程复习}{3}{subsubsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3}数控机床的操作}{3}{subsubsection.1.3.3}
+\contentsline {subsubsection}{\numberline {1.3.4}数控机床指令}{6}{subsubsection.1.3.4}
+\contentsline {paragraph}{\numberline {1.3.4.1}G指令}{6}{paragraph.1.3.4.1}
+\contentsline {paragraph}{\numberline {1.3.4.2}M指令}{6}{paragraph.1.3.4.2}
+\contentsline {paragraph}{\numberline {1.3.4.3}其它指令}{6}{paragraph.1.3.4.3}
+\contentsline {subsubsection}{\numberline {1.3.5}常见加工结构}{6}{subsubsection.1.3.5}
+\contentsline {subsubsection}{\numberline {1.3.6}上学期期末试卷分析}{7}{subsubsection.1.3.6}
+\contentsline {subsection}{\numberline {1.4}课堂小结}{7}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}布置作业}{7}{subsection.1.5}
+\contentsline {section}{\numberline {2} 复习上期所学内容 }{9}{section.2}
+\contentsline {subsection}{\numberline {2.1}组织教学}{9}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}复习导入及主要内容}{9}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}教学内容及过程}{9}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}本期教学安排}{9}{subsubsection.2.3.1}
+\contentsline {paragraph}{\numberline {2.3.1.1}理论教学计划：}{9}{paragraph.2.3.1.1}
+\contentsline {subparagraph}{\numberline {2.3.1.1.1}实习教学计划}{10}{subparagraph.2.3.1.1.1}
+\contentsline {subsubsection}{\numberline {2.3.2}手工编程复习}{10}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}数控机床的操作}{10}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}数控机床指令}{13}{subsubsection.2.3.4}
+\contentsline {paragraph}{\numberline {2.3.4.1}G指令}{13}{paragraph.2.3.4.1}
+\contentsline {paragraph}{\numberline {2.3.4.2}M指令}{13}{paragraph.2.3.4.2}
+\contentsline {paragraph}{\numberline {2.3.4.3}其它指令}{13}{paragraph.2.3.4.3}
+\contentsline {subsubsection}{\numberline {2.3.5}常见加工结构}{13}{subsubsection.2.3.5}
+\contentsline {subsubsection}{\numberline {2.3.6}上学期期末试卷分析}{14}{subsubsection.2.3.6}
+\contentsline {subsection}{\numberline {2.4}课堂小结}{14}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}布置作业}{14}{subsection.2.5}
+\contentsfinish 

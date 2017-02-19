@@ -36,9 +36,9 @@ README
 * \jjff{教学方法}
 * \makeshouye %制作教案首页
 
-![目录](https://github.com/gnixoag/myjiaoan/raw/master/2017.1.15%E4%B8%AD%E6%95%B0%E7%8F%AD%E6%95%99%E6%A1%88tex/images/1.pnp)
-![首页](https://github.com/gnixoag/myjiaoan/raw/master/2017.1.15%E4%B8%AD%E6%95%B0%E7%8F%AD%E6%95%99%E6%A1%88tex/images/2.pnp)
-![内容页](https://github.com/gnixoag/myjiaoan/raw/master/2017.1.15%E4%B8%AD%E6%95%B0%E7%8F%AD%E6%95%99%E6%A1%88tex/images/3.pnp)
+![目录](https://raw.githubusercontent.com/gnixoag/myjiaoan/master/2017.1.15中数班教案tex/images/1.pnp)
+![首页](https://raw.githubusercontent.com/gnixoag/myjiaoan/master/2017.1.15中数班教案tex/images/1.pnp)
+![内容页](https://raw.githubusercontent.com/gnixoag/myjiaoan/master/2017.1.15中数班教案tex/images/1.pnp)
 
 
 

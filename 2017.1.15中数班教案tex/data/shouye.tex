@@ -18,16 +18,24 @@
 \titlespacing{\paragraph}{0pt}{*0}{*0}
 \titlespacing{\subparagraph}{0pt}{*0}{*0}
  
+ %给旁注加个黑原点
 \usepackage{wasysym}
 \let\marginparNR\marginpar
 \def\marginpar#1{\marginparNR{ \CIRCLE{}   #1  }}
 
+%调整列表前后的间距
 \makeatletter
 \let\orig@Enumerate=\enumerate
 \renewenvironment{enumerate}{\orig@Enumerate}{\vspace{-0.5cm}\endlist}
 \let\orig@Itemize=\itemize
 \renewenvironment{itemize}{\orig@Itemize}{\vspace{-0.5cm}\endlist}
 \makeatother
+
+%给目录进行设定
+\titlecontents{section}[0pt]{\addvspace{5pt}\filright}
+{\biaotiNR {\thecontentslabel\ } \hspace{0.5em} }
+{}{\titlerule*[8pt]{.}\contentspage}
+
 
 %画边框
 %\def\boxhack{\leavevmode\vbox to0pt{\vss\rlap{\hskip 320pt

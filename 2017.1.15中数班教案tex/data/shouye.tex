@@ -1,4 +1,4 @@
-\usepackage{array}
+\usepackage{tabu} % 用tabu代替 array
 \usepackage{multirow}
 \usepackage{zhnumber}
 \usepackage{calc,marvosym,ifthen,fancybox,url,layout}
@@ -11,10 +11,17 @@
 \titleformat{\paragraph}{\xiaosi}{\arabic{paragraph}、}{1em}{}
 \titleformat{\subparagraph}{\xiaosi}{(\arabic{subparagraph})}{1em}{}
 
-\def\boxhack{\leavevmode\vbox to0pt{\vss\rlap{\hskip 320pt
-			\setlength{\unitlength}{1pt}\cornersize*{10pt}\thicklines\fancyoval(365,675)}\vskip -680pt}}
-\def\boxhackb{\leavevmode\vbox to0pt{\vss\rlap{\hskip 80pt
-			\setlength{\unitlength}{1pt}\cornersize*{10pt}\thicklines\fancyoval(100,675)}\vskip -680pt}}
+%画边框
+%\def\boxhack{\leavevmode\vbox to0pt{\vss\rlap{\hskip 320pt
+%			\setlength{\unitlength}{1pt}\cornersize*{10pt}\thicklines\fancyoval(365,675)}\vskip -680pt}}
+%\def\boxhackb{\leavevmode\vbox to0pt{\vss\rlap{\hskip 80pt
+%			\setlength{\unitlength}{1pt}\cornersize*{10pt}\thicklines\fancyoval(100,675)}\vskip -680pt}}
+
+%用tikz画边框	
+\def\biankuang{\leavevmode\vbox to0pt{
+		\vss\rlap{\hskip 0.8cm
+			\tikz \draw(4,0)--(0,0)--(0,-23.7)--(16.7,-23.7)--(16.7,0)--(4,0)--(4,-23.7);		
+		}\vskip -24cm}}
 		
 \newcolumntype{M}[1]{>{\sihao\centering\arraybackslash}m{#1}}
 \newcolumntype{N}{@{}m{0pt}@{}}
@@ -128,8 +135,9 @@
 \reversemarginpar
 \fancyhead{} 
 \chead{\kai \yihao 教 \hspace{1cm} 案 \hspace{1cm} 纸 }
-\lhead{\boxhack \boxhackb }
-\vspace{-40pt}
+%\lhead{\boxhack \boxhackb } %边框 
+\lhead{ \biankuang}%边框 
+		
 \section{ \ktmqNR }
 }
 

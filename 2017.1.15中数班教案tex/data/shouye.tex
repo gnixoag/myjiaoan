@@ -4,12 +4,19 @@
 \usepackage{calc,marvosym,ifthen,fancybox,url,layout}
 \setcounter{tocdepth}{1}
 
+%设定标题
 \setcounter{secnumdepth}{5}
 \titleformat{\section}{\centering\sanhao}{\hei \biaotiNR\thesection}{1em}{\hei}
-\titleformat{\subsection}{\xiaosi}{ \Roman{subsection}}{1em}{\hei}
+\titleformat{\subsection}{\xiaosi}{\hskip -2pt \Roman{subsection}}{1em}{\hei}
 \titleformat{\subsubsection}{\xiaosi}{\hei\zhnumber{\arabic{subsubsection}}、}{1em}{\textbf}
 \titleformat{\paragraph}{\xiaosi}{\arabic{paragraph}、}{1em}{}
 \titleformat{\subparagraph}{\xiaosi}{(\arabic{subparagraph})}{1em}{}
+%调整标题间距
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\titlespacing{\section}{0pt}{*0}{*0}
+\titlespacing{\paragraph}{0pt}{*0}{*0}
+\titlespacing{\subparagraph}{0pt}{*0}{*0}
 
 %画边框
 %\def\boxhack{\leavevmode\vbox to0pt{\vss\rlap{\hskip 320pt
@@ -43,7 +50,6 @@
 \newcommand{\biaoti}[1]{\gdef\biaotiNR{#1}}%标题头
 
 \newcounter{thesectionSY}
-
 
 \newcommand{\makeshouye}{
 	\setcounter{thesectionSY}{\thesection+1}

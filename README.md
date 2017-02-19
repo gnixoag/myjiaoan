@@ -18,7 +18,7 @@ README
 * 然后用 \input 加入到 main.tex 主文件中；
 * 参考sec1.tex 编写内容，可正常使用 latex 指令使用；
 * 用\marginpar{}进行旁注的内容会在旁注的边框中；
-* 用xelatex进行至少2次编译编译即可得到教案 main.pdf 文件 。
+* 用xelatex进行至少2次编译即可得到教案 main.pdf 文件 。
 
 ###新增指令
 * \jsxm{高老师} %教师姓名
@@ -35,3 +35,10 @@ README
 * \jxnd{教学难点，每行前面要加 \item}
 * \jjff{教学方法}
 * \makeshouye %制作教案首页
+
+![目录](https://github.com/gnixoag/myjiaoan/raw/master/2017.1.15%E4%B8%AD%E6%95%B0%E7%8F%AD%E6%95%99%E6%A1%88tex/images/1.pnp)
+![首页](https://github.com/gnixoag/myjiaoan/raw/master/2017.1.15%E4%B8%AD%E6%95%B0%E7%8F%AD%E6%95%99%E6%A1%88tex/images/2.pnp)
+![内容页](https://github.com/gnixoag/myjiaoan/raw/master/2017.1.15%E4%B8%AD%E6%95%B0%E7%8F%AD%E6%95%99%E6%A1%88tex/images/3.pnp)
+
+
+

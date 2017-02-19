@@ -15,21 +15,23 @@ README
 
 ###使用方法
 * 教案内容写在 data/sec1.tex  data/sec1.tex data/sec1.tex ... ...中；
-* 然后 \input 加入 main.tex 
-* 参考sec1.tex 编写内容，可正常使用 latex 指令使用，
+* 然后用 \input 加入到 main.tex 主文件中；
+* 参考sec1.tex 编写内容，可正常使用 latex 指令使用；
+* 用\marginpar{}进行旁注的内容会在旁注的边框中；
+* 用xelatex进行至少2次编译编译即可得到教案 main.pdf 文件 。
 
 ###新增指令
 * \jsxm{高老师} %教师姓名
 * \jyszr{高星}	%教研室主任
-* \jc{《加工中心编程与操作》刘加孝主编}%教材
+* \jc{《加工中心编程与操作》}%教材
 * \cks{}%参考书
 * \skbc{15级中数班}%授课班次
 * \biaoti{理论}%标题头
-* \jxhj{%教学后记}
-* \skrq{%授课日期}
-* \ktmq{%课题名称 }
-* \jxmb{%教学目标，每行前面要加 \item}
-* \jxzd{%教学重点，每行前面要加 \item}
-* \jxnd{%教学难点，每行前面要加 \item}
-* \jjff{%教学方法}
+* \jxhj{教学后记}
+* \skrq{授课日期}
+* \ktmq{课题名称 }
+* \jxmb{教学目标，每行前面要加 \item}
+* \jxzd{教学重点，每行前面要加 \item}
+* \jxnd{教学难点，每行前面要加 \item}
+* \jjff{教学方法}
 * \makeshouye %制作教案首页

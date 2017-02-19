@@ -22,6 +22,13 @@
 \let\marginparNR\marginpar
 \def\marginpar#1{\marginparNR{ \CIRCLE{}   #1  }}
 
+\makeatletter
+\let\orig@Enumerate=\enumerate
+\renewenvironment{enumerate}{\orig@Enumerate}{\vspace{-0.5cm}\endlist}
+\let\orig@Itemize=\itemize
+\renewenvironment{itemize}{\orig@Itemize}{\vspace{-0.5cm}\endlist}
+\makeatother
+
 %画边框
 %\def\boxhack{\leavevmode\vbox to0pt{\vss\rlap{\hskip 320pt
 %			\setlength{\unitlength}{1pt}\cornersize*{10pt}\thicklines\fancyoval(365,675)}\vskip -680pt}}
@@ -95,16 +102,15 @@
 		}\vspace{0.3cm} &\\ \hline
 		\multicolumn{3}{l}{
 			\begin{minipage}[t][6.5cm][t]{15cm}
-				
 				\begin{minipage}[t]{2.5cm}
 					\vspace{5pt} \hfill \sihao 教学重点：
 				\end{minipage}\hspace{0.5cm}				
 				\begin{minipage}[t]{12cm}
 					\vspace{0pt} \sihao \setlength{\baselineskip}{12pt} 
 					\begin{enumerate}[1、] \jxzdNR \end{enumerate}
-					\vspace{0pt} 
+					\vspace{7pt} 
 				\end{minipage}
-				\vspace{0pt} 
+				\vspace{5pt} 
 				\begin{minipage}[t]{2.5cm}
 					\vspace{6pt} \hfill \sihao 教学难点：
 				\end{minipage}\hspace{0.5cm}		

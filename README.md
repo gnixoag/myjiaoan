@@ -37,8 +37,8 @@ README
 * \makeshouye %制作教案首页
 
 ![目录](https://raw.githubusercontent.com/gnixoag/myjiaoan/master/2017.1.15中数班教案tex/images/1.pnp)
-![首页](https://raw.githubusercontent.com/gnixoag/myjiaoan/master/2017.1.15中数班教案tex/images/1.pnp)
-![内容页](https://raw.githubusercontent.com/gnixoag/myjiaoan/master/2017.1.15中数班教案tex/images/1.pnp)
+![首页](https://raw.githubusercontent.com/gnixoag/myjiaoan/master/2017.1.15中数班教案tex/images/2.pnp)
+![内容页](https://raw.githubusercontent.com/gnixoag/myjiaoan/master/2017.1.15中数班教案tex/images/3.pnp)
 
 
 

@@ -17,6 +17,10 @@
 \titlespacing{\section}{0pt}{*0}{*0}
 \titlespacing{\paragraph}{0pt}{*0}{*0}
 \titlespacing{\subparagraph}{0pt}{*0}{*0}
+ 
+\usepackage{wasysym}
+\let\marginparNR\marginpar
+\def\marginpar#1{\marginparNR{ \CIRCLE{}   #1  }}
 
 %画边框
 %\def\boxhack{\leavevmode\vbox to0pt{\vss\rlap{\hskip 320pt

@@ -44,7 +44,7 @@ README
 
 ![内容页](https://github.com/gnixoag/myjiaoan/raw/master/2017.1_15zhongshubanjiaoan/images/3.png)
 
-![授课计划](https://github.com/gnixoag/myjiaoan/raw/master/shoukejihua/2017.1_15zhongjishukongban/images/1-2.png)
+![授课计划](https://github.com/gnixoag/myjiaoan/raw/master/shoukejihua/2017.1_15zhongjishukongban/images/1-1.png)
 
 ![授课计划](https://github.com/gnixoag/myjiaoan/raw/master/shoukejihua/2017.1_15zhongjishukongban/images/2-2.png)
 

@@ -46,8 +46,8 @@
 %用tikz画边框	
 \def\biankuang{\leavevmode\vbox to0pt{
 		\vss\rlap{\hskip 0.8cm
-			\tikz \draw(4,0)--(0,0)--(0,-23.7)--(16.7,-23.7)--(16.7,0)--(4,0)--(4,-23.7);		
-		}\vskip -24cm}}
+			\tikz \draw(4,0)--(0,0)--(0,-24.1)--(16.7,-24.1)--(16.7,0)--(4,0)--(4,-24.1);		
+		}\vskip -24.4cm}}
 		
 \newcolumntype{M}[1]{>{\sihao\centering\arraybackslash}m{#1}}
 \newcolumntype{N}{@{}m{0pt}@{}}
@@ -96,7 +96,7 @@
 		& \hei \ktmqNR &  ~教研室主任\hfill {\fangsong \sanhao \underline{\jyszrNR}}\hfill 签字~~~&\\[0.6cm]\hline
 		
 		\multicolumn{3}{l}{
-			\begin{minipage}[t][4cm][t]{15cm}	
+			\begin{minipage}[t][4.5cm][t]{15cm}	
 				\begin{minipage}[t]{2.5cm}
 					\vspace{6pt} \hfill \sihao 教学目标：
 				\end{minipage}\hspace{0.5cm}				
@@ -109,7 +109,7 @@
 			\end{minipage}
 		}\vspace{0.3cm} &\\ \hline
 		\multicolumn{3}{l}{
-			\begin{minipage}[t][6.5cm][t]{15cm}
+			\begin{minipage}[t][5cm][t]{15cm}
 				\begin{minipage}[t]{2.5cm}
 					\vspace{5pt} \hfill \sihao 教学重点：
 				\end{minipage}\hspace{0.5cm}				
@@ -158,10 +158,11 @@
 	
 \reversemarginpar
 \fancyhead{} 
-\chead{\kai \yihao 教 \hspace{1cm} 案 \hspace{1cm} 纸 }
+\chead{\hspace{1cm} \kai \yihao 教 \hspace{1cm} 案 \hspace{1cm} 纸 }
 %\lhead{\boxhack \boxhackb } %边框 
 \lhead{ \biankuang}%边框 
-		
+\xiaosi		
+
 \section{ \ktmqNR }
 }
 

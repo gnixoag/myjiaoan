@@ -1,7 +1,7 @@
 \jxhj{%教学后记
 	}
 \skrq{%授课日期
-	}
+	2017年4月18日 4-5节}
 \ktmq{%课题名称
 	 坐标系旋转2}
 \jxmb{%教学目标，每行前面要加 \item
@@ -78,10 +78,10 @@ R\_    :         正值为逆时针方向的角度位移。参数5400Bit0指定�
 \item 在坐标系旋转后，执行刀具半径补偿、刀具长度补偿、刀具偏置和其它补偿等，要在坐标系旋转取消前取消补偿。
 \item 在坐标系旋转中，不得执行与坐标系有关的指令。如：G27、G28、G29、G30，G52-G59。
 \item  坐标系旋转取消（G69）后的第一个指令必须用绝对值编程。用增量值则不能正确的执行。
-\item 坐标系G68后的第一个指令应用绝对值编程，用增量值编程，则    会以刀具当前为中心进行第二次旋转，如图\ref{旋转}所示：
+\item 坐标系G68后的第一个指令应用绝对值编程，用增量值编程，则    会以刀具当前为中心进行第二次旋转，如图\ref{旋转5}所示：
 \begin{figure}
 	\centering	\includegraphics[width=0.8\textwidth]{images/7-1}
-	\caption{旋转} \label{旋转}
+	\caption{旋转5} \label{旋转5}
 \end{figure}
 \item 有多个旋转时，旋转中的终点应与下一个旋转的启点重合。或者另外增加路径定位。
 \end{enumerate}
@@ -96,10 +96,10 @@ ROT/AROT指令要求一个独立的程序段。
 工件坐标系原点可以通过TRANS X\_ Y\_ 进行平移。\\
 
 \subsubsection{加工实例}
-在数控机床上加工如图\ref{坐标系旋转}所示的零件，完成加工工艺及加工程序的编写：
+在数控机床上加工如图\ref{坐标系旋转3}所示的零件，完成加工工艺及加工程序的编写：
 \begin{figure}
 	\centering	\includegraphics[width=0.8\textwidth]{images/7-2.jpg}
-	\caption{坐标系旋转} \label{坐标系旋转}
+	\caption{坐标系旋转3} \label{坐标系旋转3}
 \end{figure}
 参考程序：
 

@@ -191,41 +191,41 @@ M2
 \subsubsection{课题评分表}
 
 \noindent
-\begin{figure}[!hbtp]
-	\centering	
-\begin{tabular}{|c|c|c|c|c|c|c|c|}
+%\begin{figure}[!hbtp]
+%	\centering	
+\footnotesize
+\hspace{-2.8ex}
+\begin{tabu} to 0.5\textwidth {|cc|c|c|c|c|c|c|}
 	\hline 
-\multicolumn{2}{|c|}{工件编号}  &\multicolumn{2}{c}{} & \multicolumn{2}{|c|}{总得分}   & \multicolumn{2}{|c|}{ }   \\ 
+\multicolumn{2}{|c|}{工件编号}  &\multicolumn{2}{c}{} & \multicolumn{2}{|c}{总得分}   & \multicolumn{2}{|c|}{ }   \\ 
 	\hline 
- \multicolumn{2}{|c|}{项目与配分} &序号  & 技术要求 & 配分 & 评分标准 & 检测 记录  & 得分 \\ 
+ \multicolumn{2}{|c|}{项目与配分} &\parbox{2ex}{序号}  & 技术要求 & 配分 & 评分标准 &  \parbox{4ex}{检测记录}& 得分 \\ 
 	\hline 
- 工件加工 （80） &上面  & 1 &面铣  & 4 & 超差全扣 & & \\ 
+\multirow{4}{*}{ \parbox{4ex}{工件加工 （80）}} &\multicolumn{1}{|c|}{上面}  & 1 &面铣  & 4 & 超差全扣 & & \\ 
+	\cline{2-8}  
+	 &\multicolumn{1}{|c|}{上面}   & 2 &尺寸1  & 12 & 超差全扣 & & \\ 
+	\cline{2-8} 
+	 &\multicolumn{1}{|c|}{上面}  & 3 &尺寸2  & 12& 超差全扣 & & \\ 
+	\cline{2-8} 
+	 &\multicolumn{1}{|c|}{上面}   & 4&椭圆  & 30 & 超差全扣 & & \\ 
 	\hline 
- \multicolumn{2}{|c|}{} &  &  &  &  &  &  \\ 
+ \multicolumn{2}{|c|}{\multirow{2}{*}{\parbox{10ex}{程序与工艺
+ 		（10\%）} } }&5  &程序正确合理  & 5 & 每错一处扣2分 &  &  \\ 
+	\cline{3-8} 
+&&6&加工工序卡  &5  &不合理每处扣2分  &&  \\ 
 	\hline 
-\multicolumn{2}{|c|}{} &  &  &  &  &  &  \\ 
-	\hline 
-\end{tabular} 
-\end{figure}
-
-
-工件编号		总得分	
-项目与配分	序号	技术要求	配分	评分标准	检测
-记录	得分
-工件
-加工
-（80%）		1	面铣	4	超差全扣		
-2	尺寸1	12	超差全扣		
-3	尺寸2	12	超差全扣		
-4	椭圆	30	超差全扣		
-程序与工艺
-（10%）	10	程序正确合理	5	每错一处扣2分		
-11	加工工序卡	5	不合理每处扣2分		
-机床操作
-（10%）	12	机床操作规范	5	出错一次扣2分		
-13	工件刀具装夹	5	出错一次扣2分		
-安全文明生产
-（倒扣分）	14	安全操作	倒扣	安全事故停止操作或酌情扣分		
-15	机床整理	倒扣			
-
+ \multicolumn{2}{|c|}{\multirow{2}{*}{\parbox{10ex}{机床操作
+ 		（10\%）}
+ } } &7 &机床操作规范  & 5 & 出错一次扣2分 &  &  \\ 
+\cline{3-8} 
+&&8&工件刀具装夹  &5  &出错一次扣2分&&  \\ 
+\hline 	
+ \multicolumn{2}{|c|}{\multirow{2}{*}{\parbox{10ex}{安全文明生产
+ 		（倒扣分）}
+ } } &9  &安全操作  & 倒扣 & \multirow{2}{*}{\parbox{14ex}{安全事故停止操作或酌情扣分}}&  &  \\ 
+\cline{3-5} \cline{7-8} 
+&&10&机床整理  &倒扣  &  &  &\\ 
+\hline 	
+\end{tabu} 
+%\end{figure}
 \vfill

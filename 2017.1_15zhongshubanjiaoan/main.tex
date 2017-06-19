@@ -13,6 +13,7 @@
 %% 首页格式
 \input{data/shouye}
 
+\usepackage{paralist}
 %%%% 导言区结束
 %%%%%%%%------------------------------------------------------------------------
 
@@ -61,22 +62,22 @@
 
 \xiaosi
 
-%\input{data/sec1}
-%\input{data/sec2}
-%\input{data/sec3}
-%\input{data/sec4}
-%\input{data/sec5}
-%\input{data/sec6}
-%\input{data/sec7}
-%\input{data/sec8}
-%\input{data/sec9}
-%\input{data/sec10}
-%\input{data/sec11}
-%\input{data/sec12}
-%\input{data/sec13}
-%\input{data/sec14}
-%\input{data/sec15}
-%\input{data/sec16}
+%\include{data/sec1}
+%\include{data/sec2}
+%\include{data/sec3}
+%\include{data/sec4}
+%\include{data/sec5}
+%\include{data/sec6}
+%\include{data/sec7}
+%\include{data/sec8}
+%\include{data/sec9}
+%\include{data/sec10}
+%\include{data/sec11}
+%\include{data/sec12}
+%\include{data/sec13}
+%\include{data/sec14}
+%\include{data/sec15}
+%\include{data/sec16}
 
 
 \biaoti{实习}%标题头
@@ -85,10 +86,10 @@
 \titlecontents{section}[0pt]{\addvspace{5pt}\filright}
 { 实习  \thecontentslabel \hspace{0.5em} }
 {}{\titlerule*[8pt]{.} \contentspage}
-\input{data/shixi_1}
-\input{data/shixi_2}
-\input{data/shixi_3}
-\input{data/shixi_4}
+\include{data/shixi_1}
+\include{data/shixi_2}
+\include{data/shixi_3}
+\include{data/shixi_4}
 
 %% 中文习惯是设定首行缩进为2em。注意此设置一定要在document环境之中，这可能与\setlength作用范围相关
 %\setlength{\parindent}{2em}                    
